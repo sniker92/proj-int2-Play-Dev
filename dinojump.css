@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(34, 34, 34);
+    background-image: url("./icone-de-botao-de-geometria-de-jogo-flutuando-na-ilustracao-3d-de-fundo-renderizando-o-resumo-do-papel-de-parede-para-o-jogador_42100-4244.avif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+}
+a{
+    color: white
+}
+a:hover{
+    color: rgb(143, 81, 143)
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+img{
+    width: 500px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+p{
+    max-width: 500px;
+    line-height: 25px;
+}
+
+.game-board {
+    background-color: rgb(17, 219, 226);
+    background-image: url("./baixados__8_-removebg-preview-removebg-preview-removebg-preview\ \(1\).png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+    height: 550px;
+    border: 1px solid #333;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+}
+.score {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    font-size: x-large;
+}
+.pipe {
+    position: absolute;
+    bottom: -25px;
+    width: 105px;
+    height: 135px;
+    background-size: 35px;
+    background-repeat: no-repeat;
+    animation: pipe-animation 1.8s infinite linear;
+}
+.dino {
+    width: 150px;
+    position: absolute;
+    bottom: -10px;
+    left: 300px;
+    
+}
+.jump {
+    animation: jump 2300ms ease-out;
+}
+.grama {
+    width: 250px;
+    position: absolute;
+    bottom: -65px;
+    left: 0px;
+}
+.grama1 {
+    width: 250px;
+    position: absolute;
+    bottom: -65px;
+    left: 80px;
+}
+.grama2 {
+    width: 250px;
+    position: absolute;
+    bottom: -65px;
+    left: 160px;
+}
+.grama3 {
+    width: 250px;
+    position: absolute;
+    bottom: -65px;
+    left: 240px; 
+}
+.grama4 {
+    width: 250px;
+    position: absolute;
+    bottom: -65px;
+    left: 420px;
+}
+.grama5 {
+    width: 500px;
+    position: absolute;
+    bottom: -65px;
+    left: 240px;
+}
+.grama6 {
+    width: 250px;
+    position: absolute;
+    bottom: -65px;
+    left: 580px;
+}
+.grama7 {
+    width: 250px;
+    position: absolute;
+    bottom: -65px;
+    left: 660px;
+}
+.grama8 {
+    width: 250px;
+    position: absolute;
+    bottom: -65px;
+    left: 740px;
+}
+.grama9 {
+    width: 250px;
+    position: absolute;
+    bottom: -65px;
+    left: 820px;
+}
+@keyframes pipe-animation {
+    from {
+        right: -80px;
+    }
+
+    to {
+        right: 100%;
+    }
+}
+@keyframes jump {
+
+    0% {
+        bottom: 0;
+    }
+
+    10% {
+        bottom: 130px;
+    }
+
+    20% {
+        bottom: 130px;
+    }
+
+    30% {
+        bottom: 130px;
+    }
+    
+    40% {
+        bottom: 130px;
+    }
+
+    50% {
+        bottom: 130px;
+    }
+
+    60% {
+        bottom: 130px;
+    }
+
+    70% {
+        bottom: 0;
+    }
+
+    80% {
+        bottom: 0;
+    }
+
+    90% {
+        bottom: 0;
+    }
+
+    100% {
+        bottom: 0;
+    }
+}
